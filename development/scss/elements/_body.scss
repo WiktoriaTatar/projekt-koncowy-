@@ -1,0 +1,59 @@
+
+body{
+  background: $mainHeaderColor;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  font-family: $mainFont;
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 50px 50px 20px 50px;
+  text-align: center;
+  color: $mainFontColor;
+}
+.logo{
+  height: 60px;
+  width: 150px;
+  background: url('/development/images/ikea-logo.f7d9229f806b59ec64cb.svg') center/cover;
+}
+.title{
+    font-family: $mainFont;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    color: $mainHeaderColor;
+  transform: translate(26%, 700%);
+}
+.map{
+  background: $mainFontColor;
+  &_container{
+    background: url("/development/images/map1920.png") no-repeat;
+    background-size: 100% 100%;
+    height: calc(100vh - 160px);
+  }
+  &_btn{
+    text-decoration: none;
+    color: $mainHeaderColor;
+    font-family: $mainFont;
+  }
+}
+.btn{
+  &_K10{
+    transform: translate(360px, -360px);
+  }
+  &_K14{
+    transform: translate(360px, -200px);
+  }
+
+}
+
+//.map_wrapper{
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//
+//}
