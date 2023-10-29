@@ -2,7 +2,9 @@
 body{
   background: $mainHeaderColor;
 }
-
+.home{
+  background: $mainFontColor;
+}
 header {
   display: flex;
   align-items: center;
@@ -21,39 +23,90 @@ header {
   background: url('/development/images/ikea-logo.f7d9229f806b59ec64cb.svg') center/cover;
 }
 .title{
+  transform: translate(950%, 750%);
+  max-width: 200px;
+  position: absolute;
     font-family: $mainFont;
     font-weight: 700;
     font-size: 2rem;
-    text-align: center;
     color: $mainHeaderColor;
-  transform: translate(26%, 700%);
 }
 .map{
-  background: $mainFontColor;
   &_container{
+    position: relative;
+    margin: 0 170px 0 170px;
+    width: 1088px;
+    height: 616px;
     background: url("/development/images/map1920.png") no-repeat;
-    background-size: 100% 100%;
-    height: calc(100vh - 160px);
+    background-size: contain;
+
   }
   &_btn{
     text-decoration: none;
     color: $mainHeaderColor;
     font-family: $mainFont;
-  }
-}
-.btn{
-  &_KV0{
-    transform: translate(360px, -360px);
-  }
-  &_K14{
-    transform: translate(360px, -200px);
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: all 0.4s;
+    opacity: 0.75;
+    position: absolute;
+    &_kv0{
+      transform: translate(550%, 700%);
+      max-width: 100px;
+    }
+    &_k14{
+      transform: translate(600%, 1600%);
+      max-width: 100px;
+    }
+    &_k10{
+      transform: translate(1000%, 300%);
+      max-width: 100px;
+
+    }
+    &_k9{
+      transform: translate(2100%, 300%);
+      max-width: 100px;
+
+    }
+    &_k7{
+      transform: translate(2200%, 1600%);
+      max-width: 100px;
+
+    }
+    &_k4{
+      transform: translate(2200%, 2600%);
+      max-width: 100px;
+
+    }
+    &_k2{
+      transform: translate(3000%, 2600%);
+      max-width: 100px;
+
+    }
+    &_k0{
+      transform: translate(2900%, 1950%);
+      max-width: 100px;
+
+    }
+    &_kv1{
+      transform: translate(1000%, 1950%);
+      max-width: 100px;
+
+    }
+    &_kv5{
+      transform: translate(1000%, 1300%);
+      max-width: 100px;
+    }
   }
 
 }
+.map_btn:hover{
 
-//.map_wrapper{
-//    display: flex;
-//    justify-content: center;
-//    align-items: center;
-//
-//}
+  opacity: 0.5;
+  color: black;
+  background: white;
+  border-radius: 3px;
+}
+.footer_base{
+  height: 30px;
+}

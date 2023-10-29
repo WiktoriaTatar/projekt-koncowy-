@@ -5,6 +5,9 @@ body{
     color: $mainHeaderColor;
   }
 }
+.logo a {
+  opacity: 0;
+}
 .main_app_wrapper{
   background: $mainFontColor;
 }
