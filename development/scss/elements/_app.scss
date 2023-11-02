@@ -2,7 +2,6 @@ body{
   font-family: $mainFont;
   b{
     font-weight: 750;
-    color: $mainHeaderColor;
   }
 }
 .logo a {
@@ -12,7 +11,28 @@ body{
   background: $mainFontColor;
 }
 .dot_1{
-  transform: translate(170%,220%);
+  transform: translate(85%,0%);
+}
+.dot_2{
+  transform: translate(200%,-10%);
+}
+.dot_2 .dot_picture{
+  background: url("/development/images/oswietleniek8.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_3{
+  transform: translate(150%,55%);
+  z-index: 1;
+}
+.dot_3 .dot_picture{
+    background: url("/development/images/blatk8.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
 }
 .dot_container{
   display: flex;
@@ -37,6 +57,7 @@ body{
   cursor: pointer;
   transform: translate(50%,50%);
 
+
   &_center{
     width: .75rem;
     height: .75rem;
@@ -49,11 +70,22 @@ body{
   }
 }
 .dot_info{
-  width: 100px;
-  height: 200px;
-  background: white;
   opacity: 0;
   transition: all 0.3s;
+  z-index: 2;
+}
+.dot_picture{
+  background: url("/development/images/spizarkak8.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_desc{
+  background: $mainHeaderColor;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  font-size: .90rem;
 }
 .dot:hover{
   opacity: 0.4;
@@ -64,11 +96,10 @@ body{
   box-shadow: 0 10px 20px rgba(17, 17, 17, 0.3);
 }
 
-
 .main_picture{
   position: relative;
   margin: 0 0 0 10rem;
-  background: url("/development/images/kv0.png") no-repeat;
+  background: url("/development/images/k8.png") no-repeat;
   background-size: contain;
   height: 720px;
   width: 960px;
@@ -91,17 +122,21 @@ body{
 
 }
 .picture_description{
-  color: $mainHeaderColor;
+  color: $mainFontColor;
   font-size: 1.2rem;
+  p{
+    margin: 20px 0 0 0 ;
+  }
 }
 ///////////
 .picture_description_container{
-  color: $mainHeaderColor;
-  background: black;
+  color: $mainFontColor;
+  background: $mainHeaderColor;
   padding: 30px 0 30px 50px;
   display: flex;
   align-items: center;
   gap: 50px;
+  line-height: 150%;
 }
 .picture_description{
   max-width: 40%;
@@ -110,5 +145,7 @@ body{
 
 }
 .AGD_info{
-
+b {
+  margin: 20px 0 30px 0 ;
+}
 }

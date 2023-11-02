@@ -1,0 +1,30 @@
+
+
+
+.main_picture_k10{
+  background: url("/development/images/k10.png") no-repeat;
+  height: 590px;
+  width: 960px;
+  margin: 0 0 0 16rem;
+
+}
+.dot_1_k10{
+  transform: translate(30%,20%);
+}
+.dot_1_k10 .dot_picture{
+  background: url("/development/images/plytak10.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_2_k10{
+  transform: translate(140%,-30%);
+}
+.dot_2_k10 .dot_picture{
+  background: url("/development/images/listwadekok10.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
