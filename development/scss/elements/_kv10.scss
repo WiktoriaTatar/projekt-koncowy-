@@ -1,0 +1,43 @@
+.main_picture_kv10{
+  background: url("/development/images/kv10.png") no-repeat;
+  background-size: contain;
+  height: 590px;
+  width: 960px;
+  margin: 0 0 0 22rem;
+}
+.dot_1_kv10{
+  transform: translate(20%,20%);
+}
+
+.dot_1_kv10 .dot_picture{
+  background: url("/development/images/szafkablatkv10.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_2_kv10{
+  transform: translate(45%,30%);
+
+}
+.dot_2_kv10 .dot_picture{
+  background: url("/development/images/blatkv10.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+
+}
+.dot_info_2_kv10{
+  opacity: 0;
+  transition: all 0.3s;
+  transform: translatex(-110%);
+}
+.dot:hover + .dot_info_2_kv10 {
+  opacity: 1;
+}
+.picture_description_container{
+  display: flex;
+  justify-content: center;
+  gap:95px;
+}

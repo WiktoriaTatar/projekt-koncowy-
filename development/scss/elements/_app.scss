@@ -101,7 +101,7 @@ body{
   margin: 0 0 0 10rem;
   background: url("/development/images/k8.png") no-repeat;
   background-size: contain;
-  height: 720px;
+  height: 540px;
   width: 960px;
 
 }
@@ -115,6 +115,8 @@ body{
 }
 .picture_wrapper{
   margin: 0 20px 0 40px;
+  display: flex;
+  justify-content: center;
 
 }
 .picture_description{

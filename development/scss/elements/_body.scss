@@ -32,9 +32,12 @@ header {
     color: $mainHeaderColor;
 }
 .map{
+  &_wrapper{
+    display: flex;
+    justify-content: center;
+  }
   &_container{
     position: relative;
-    margin: 0 170px 0 170px;
     width: 1088px;
     height: 616px;
     background: url("/development/images/map1920.png") no-repeat;
@@ -78,23 +81,23 @@ header {
       max-width: 100px;
 
     }
-    &_k2{
+    &_k0{
       transform: translate(3000%, 2600%);
       max-width: 100px;
 
     }
-    &_k0{
-      transform: translate(2900%, 1950%);
-      max-width: 100px;
-
-    }
     &_kv1{
-      transform: translate(1000%, 1950%);
+      transform: translate(1850%, 1950%);
       max-width: 100px;
 
     }
     &_kv10{
-      transform: translate(760%, 1300%);
+      transform: translate(760%, 1950%);
+      max-width: 100px;
+
+    }
+    &_kv9{
+      transform: translate(1000%, 1300%);
       max-width: 100px;
     }
   }

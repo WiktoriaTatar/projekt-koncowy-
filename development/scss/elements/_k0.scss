@@ -1,0 +1,49 @@
+.main_picture_k0{
+  background: url("/development/images/k0.png") no-repeat;
+  background-size: contain;
+  height: 590px;
+  width: 960px;
+  margin: 0 0 0 20rem;
+}
+.dot_1_k0{
+  transform: translate(40%,0%);
+}
+
+.dot_1_k0 .dot_picture{
+  background: url("/development/images/brakpaneluk0.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_2_k0{
+  transform: translate(115%,5%);
+
+}
+.dot_2_k0 .dot_picture{
+  background: url("/development/images/laczenieplaskownikik0.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+
+}
+.dot_3_k0{
+  transform: translate(100%,-20%);
+}
+.dot_3_k0 .dot_picture{
+  background: url("/development/images/szafkigorak0.jpg") no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_info_2_k0{
+  opacity: 0;
+  transition: all 0.3s;
+  transform: translatex(-110%);
+}
+.dot:hover + .dot_info_2_k0 {
+  opacity: 1;
+
+}

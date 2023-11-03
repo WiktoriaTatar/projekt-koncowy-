@@ -1,0 +1,53 @@
+.main_picture_kv9{
+  background: url("/development/images/kv9.png") no-repeat;
+  background-size: contain;
+  height: 590px;
+  width: 960px;
+  margin: 0 0 0 22rem;
+}
+.dot_1_kv9{
+  transform: translate(20%,10%);
+}
+
+.dot_1_kv9 .dot_picture{
+  background: url("/development/images/cargokv9.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_2_kv9{
+  transform: translate(120%,10%);
+
+}
+.dot_2_kv9 .dot_picture{
+  background: url("/development/images/wnetrzekv9.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+
+}
+.dot_3_kv9{
+  transform: translate(60%,-10%);
+}
+.dot_3_kv9 .dot_picture{
+  background: url("/development/images/panelpodkv9.jpg") no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_info_2_kv9{
+  opacity: 0;
+  transition: all 0.3s;
+  transform: translatex(-110%);
+}
+.dot:hover + .dot_info_2_kv9 {
+  opacity: 1;
+}
+.picture_description_container{
+  display: flex;
+  justify-content: center;
+  gap:95px;
+}
