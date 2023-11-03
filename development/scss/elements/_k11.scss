@@ -1,7 +1,49 @@
 .main_picture_k11{
   background: url("/development/images/k11.png") no-repeat;
+  background-size: contain;
   height: 590px;
   width: 960px;
   margin: 0 0 0 16rem;
+}
+.dot_1_k11{
+  transform: translate(125%,30%);
+}
+
+.dot_1_k11 .dot_picture{
+  background: url("/development/images/szafka88k11.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_2_k11{
+  transform: translate(160%,10%);
+
+}
+.dot_2_k11 .dot_picture{
+  background: url("/development/images/kratkawentk11.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+
+}
+.dot_3_k11{
+  transform: translate(45%,-10%);
+}
+.dot_3_k11 .dot_picture{
+  background: url("/development/images/ociekaczk11.jpg") no-repeat;
+  background-size: contain;
+  height: 260px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_info_2_k11{
+  opacity: 0;
+  transition: all 0.3s;
+  transform: translatex(-110%);
+}
+.dot:hover + .dot_info_2_k11 {
+  opacity: 1;
 
 }

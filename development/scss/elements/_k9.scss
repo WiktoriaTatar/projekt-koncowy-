@@ -1,0 +1,40 @@
+.main_picture_k9{
+  background: url("/development/images/k9.png") no-repeat;
+  background-size: contain;
+  height: 590px;
+  width: 960px;
+  margin: 0 0 0 20rem;
+
+
+}
+.dot_1_k9{
+  transform: translate(80%,30%);
+
+}
+.dot_1_k9 .dot_picture{
+  background: url("/development/images/behjalpigk9.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_2_k9{
+  transform: translate(140%,20%);
+
+}
+.dot_2_k9 .dot_picture{
+  background: url("/development/images/blatk9.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_info_2{
+  opacity: 0;
+  transition: all 0.3s;
+  transform: translatex(-110%);
+}
+.dot:hover + .dot_info_2 {
+  opacity: 1;
+
+}

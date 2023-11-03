@@ -72,7 +72,7 @@ body{
 .dot_info{
   opacity: 0;
   transition: all 0.3s;
-  z-index: 2;
+
 }
 .dot_picture{
   background: url("/development/images/spizarkak8.jpg") no-repeat;
@@ -114,10 +114,6 @@ body{
   padding: 40px 0 30px 0
 }
 .picture_wrapper{
-  //display: flex;
-  //justify-content: center;
-  //align-items: center;
-  //gap: 30px;
   margin: 0 20px 0 40px;
 
 }

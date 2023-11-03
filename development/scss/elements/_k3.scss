@@ -1,0 +1,49 @@
+.main_picture_k3{
+  background: url("/development/images/k3.png") no-repeat;
+  background-size: contain;
+  height: 590px;
+  width: 960px;
+  margin: 0 0 0 16rem;
+}
+.dot_1_k3{
+  transform: translate(45%,30%);
+}
+
+.dot_1_k3 .dot_picture{
+  background: url("/development/images/nogazblatuk3.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+}
+.dot_2_k3{
+  transform: translate(180%,35%);
+
+}
+.dot_2_k3 .dot_picture{
+  background: url("/development/images/rurkiszafkak3.jpg") no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 340px;
+  border: 5px solid white ;
+
+}
+.dot_3_k3{
+  transform: translate(90%,40%);
+}
+.dot_3_k3 .dot_picture{
+  background: url("/development/images/utrustak3.jpg") no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border: 5px solid white ;
+}
+.dot_info_2_k3{
+  opacity: 0;
+  transition: all 0.3s;
+  transform: translatex(-110%);
+}
+.dot:hover + .dot_info_2_k3 {
+  opacity: 1;
+
+}
