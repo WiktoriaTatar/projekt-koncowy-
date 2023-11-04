@@ -14,7 +14,7 @@ body{
   transform: translate(85%,0%);
 }
 .dot_2{
-  transform: translate(200%,-10%);
+  transform: translate(130%,-20%);
 }
 .dot_2 .dot_picture{
   background: url("/development/images/oswietleniek8.jpg") no-repeat;
@@ -24,7 +24,7 @@ body{
   border: 5px solid white ;
 }
 .dot_3{
-  transform: translate(150%,55%);
+  transform: translate(150%,30%);
   z-index: 1;
 }
 .dot_3 .dot_picture{
@@ -81,15 +81,25 @@ body{
   width: 340px;
   border: 5px solid white ;
 }
+.k8{
+  a{
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+    color: black;
+    border: none;
+  }
+}
+.k8:hover{
+  opacity: 1;
+}
 .dot_desc{
   background: $mainHeaderColor;
   text-align: center;
   padding: 5px 0 5px 0;
   font-size: .90rem;
 }
-.dot:hover{
-  opacity: 0.4;
-}
+
 .dot:hover + .dot_info {
   opacity: 1;
   transform: translateX(10%);

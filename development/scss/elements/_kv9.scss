@@ -46,6 +46,18 @@
 .dot:hover + .dot_info_2_kv9 {
   opacity: 1;
 }
+.dot:hover, .dot_info_3_kv9:hover {
+  opacity: 1;
+}
+.dot_info_3_kv9{
+  a{
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+    color: black;
+    border: none;
+  }
+}
 .picture_description_container{
   display: flex;
   justify-content: center;

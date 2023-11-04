@@ -6,7 +6,7 @@
   margin: 0 0 0 16rem;
 }
 .dot_1_k3{
-  transform: translate(45%,30%);
+  transform: translate(65%,40%);
 }
 
 .dot_1_k3 .dot_picture{
@@ -29,7 +29,7 @@
 
 }
 .dot_3_k3{
-  transform: translate(90%,40%);
+  transform: translate(90%,20%);
 }
 .dot_3_k3 .dot_picture{
   background: url("/development/images/utrustak3.jpg") no-repeat;
@@ -42,8 +42,17 @@
   opacity: 0;
   transition: all 0.3s;
   transform: translatex(-110%);
+  a {
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+    color: black;
+    border: none;
+  }
 }
 .dot:hover + .dot_info_2_k3 {
   opacity: 1;
-
+}
+.dot_info_2_k3:hover{
+  opacity: 1;
 }
